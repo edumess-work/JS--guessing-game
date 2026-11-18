@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Isometra&family=Limelight&family=Playwrite+CA+Guides&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+
+    <header>
+        <h1>Focus Timer & Task Logger</h1>
+        <h3>Stay Focused. Build Your Progress.</h3>
+    </header>
+
+    <main>
+        <div id="main">
+        <div id="timer">
+
+            <h4>Session Duration</h4>
+
+            <form id="timer-form">
+                <select id="duration">
+                    <option value="1">1 minute</option>
+                    <option value="5" selected>5 minutes</option>
+                    <option value="10">10 minutes</option>
+                </select>
+            </form>
+
+            <h2 id="countdown">05:00</h2>
+
+            <p id="status">Ready to focus?</p>
+
+            <button id="start-btn">Start</button>
+            <button id="reset-btn">Reset</button>
+
+        </div>
+
+        <div id="session-log">
+
+            <h2>Completed Sessions</h2>
+
+            <p id="empty-message">No sessions completed yet.</p>
+
+            <ul id="session-list"></ul>
+
+            <button id="clear-btn">Clear Log</button>
+
+        </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

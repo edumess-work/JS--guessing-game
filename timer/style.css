@@ -1,0 +1,113 @@
+
+header {
+    background-color: #16366B;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Manrope', sans-serif;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+header h3 {
+    color: #D8E4F7;
+    font-weight: 500;
+}
+
+body {
+    background-color: #F7F3EA;
+    color: #192B45;
+    font-family: 'Manrope', sans-serif;
+    margin: 10px;
+}
+
+main {
+    margin: 20px auto;
+}
+
+#timer {
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#timer h4 {
+    color: #334A6B;
+    font-size: 17px;
+}
+
+#duration {
+    background-color: #F1F4F8;
+    color: #192B45;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #DCE4EF;
+}
+
+#countdown {
+    color: #16366B;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+#status {
+    color: #687991;
+    font-size: 14px;
+}
+
+button {
+    background-color: #E8EDF4;
+    color: #192B45;
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#start-btn {
+    background-color: #079669;
+    color: white;
+}
+
+#reset-btn {
+    background-color: #E8EDF4;
+    color: #192B45;
+}
+
+#session-log {
+    background-color: #17263B;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+#empty-message {
+    color: #D0D9E6;
+}
+
+#session-list {
+    text-align: left;
+}
+
+#session-list li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #263D5C;
+    border-radius: 8px;
+}
+
+#clear-btn {
+    background-color: #263D5C;
+    color: white;
+    border: 1px solid #91BCFF;
+}
